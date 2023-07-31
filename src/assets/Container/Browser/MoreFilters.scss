@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+.div-container {
+  max-width: 100%;
+  @include flex(space-evenly);
+  fieldset {
+    height: 200px;
+    padding: 1em;
+    label {
+      padding: 0 0.5em;
+    }
+  }
+}

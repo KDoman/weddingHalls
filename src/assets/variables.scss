@@ -1,0 +1,11 @@
+@mixin flex($justify) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}
+
+:root {
+  --bg-color: rgb(254, 252, 232);
+  --light-purple: #dbc4fc;
+  --dark-purple: #9459dc;
+}

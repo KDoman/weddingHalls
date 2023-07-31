@@ -1,0 +1,11 @@
+@import "../../../variables.scss";
+
+.one-wedding-hall {
+  display: flex;
+  border: 3px solid var(--light-purple);
+  padding: 2em;
+  border-radius: 10px;
+  img {
+    max-width: 300px;
+  }
+}
