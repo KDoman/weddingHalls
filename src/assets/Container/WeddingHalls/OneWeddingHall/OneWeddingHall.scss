@@ -1,11 +1,166 @@
 @import "../../../variables.scss";
 
 .one-wedding-hall {
+  box-shadow: 0 0 5px 2px var(--light-purple);
+  margin: 2em 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 5px;
   display: flex;
-  border: 3px solid var(--light-purple);
-  padding: 2em;
-  border-radius: 10px;
-  img {
-    max-width: 300px;
+  &:hover {
+    box-shadow: 0 0 5px 2px var(--dark-purple);
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  .img-arrow-div {
+    position: relative;
+    .hall-img {
+      max-width: 100%;
+      margin: 1em;
+      border-radius: 10px;
+    }
+    .prev::before {
+      content: " ";
+      border-left: 6px solid #fffcfc;
+      border-bottom: 6px solid #fffcfc;
+      width: 30px;
+      height: 30px;
+      transform: rotate(45deg);
+      cursor: pointer;
+      position: absolute;
+      display: none;
+    }
+
+    .next::before {
+      position: absolute;
+      content: " ";
+      border-left: 6px solid #fffcfc;
+      border-bottom: 6px solid #fffcfc;
+      width: 30px;
+      height: 30px;
+      transform: rotate(225deg);
+      cursor: pointer;
+      display: none;
+      position: absolute;
+    }
+  }
+  .info-div {
+    position: relative;
+    padding-left: 2em;
+
+    .title {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .description {
+      padding: 1rem 2rem 1rem 0;
+    }
+    .localization {
+      background-color: var(--dark-purple);
+      width: fit-content;
+      padding: 0 1em;
+      border-radius: 5px;
+      color: white;
+    }
+    .price {
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-align: right;
+      padding-right: 1em;
+      .person-icon {
+        width: 30px;
+        display: inline-block;
+      }
+    }
+    .type-icon {
+      position: absolute;
+      top: 5%;
+      right: 2%;
+    }
+    .contact-button {
+      background-color: var(--light-purple);
+      transition: background-color 0.2s, color 0.2s;
+      border-radius: 5px;
+      margin-bottom: 2em;
+      padding: 1em 3em;
+
+      &:hover {
+        background-color: var(--dark-purple);
+        color: white;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .one-wedding-hall {
+    display: block;
+    .img-arrow-div {
+      .hall-img {
+        margin: 0;
+        border-radius: 0;
+        min-width: 100% !important;
+        height: auto;
+      }
+      .prev::before {
+        top: calc(50% - 15px);
+        left: 5%;
+        display: block;
+      }
+
+      .next::before {
+        bottom: calc(50% - 15px);
+        left: calc(90% - 10px);
+        display: block;
+      }
+    }
+    .info-div {
+      max-width: 80%;
+      margin: 0 auto;
+      padding-bottom: 2em;
+      padding-left: 0;
+
+      .price {
+        .person-icon {
+          width: 1em;
+        }
+      }
+      .type-icon {
+        position: absolute;
+        top: 5%;
+        right: -10%;
+        width: 30px;
+      }
+    }
+    .contact-button {
+      margin: 1em 0 0 0 !important;
+      padding: 1em 3em;
+      min-width: 100%;
+    }
+  }
+}
+// MOBILE
+@media (max-width: 481px) {
+  .title {
+    font-size: 1.3rem !important;
+  }
+  .price {
+    font-size: 1em !important;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
+  .contact-button {
+    padding: 0.5em 1em !important;
+  }
+  .prev::before {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .next::before {
+    top: calc(50% - 15px);
+    width: 20px !important;
+    height: 20px !important;
   }
 }

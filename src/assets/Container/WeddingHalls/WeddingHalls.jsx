@@ -4,10 +4,14 @@ export function WeddingHalls() {
     <>
       <OneWeddingHall
         src="sala-weselna.jpg"
-        name="test"
-        localization="test"
-        description="test"
-        price="test"
+        name="Sala weselna"
+        localization="Warszawa"
+        description="Sala weselna lorem Sala weselna lorem Sala weselna lorem  Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weselna Sala weselna lorem Sala weselna lorem Sala weselna lorem  Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weseln
+        Sala weselna lorem Sala weselna lorem Sala weselna lorem  Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weselna lorem Sala weseln
+        "
+        price="149 zł"
+        buttonText="Spytaj o dostępność"
+        smallIcon="wedding-hall.png"
       />
     </>
   );

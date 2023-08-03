@@ -10,3 +10,27 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .div-container {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+  }
+  fieldset:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  fieldset:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  fieldset:nth-of-type(3) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  fieldset:nth-of-type(4) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
