@@ -13,3 +13,14 @@
     border-color: var(--dark-purple);
   }
 }
+
+@media (max-width: 1024px) {
+  .input-div {
+    display: block;
+    .input-style {
+      display: block;
+      margin: 1em auto;
+      width: 100%;
+    }
+  }
+}

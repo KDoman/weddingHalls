@@ -4,14 +4,30 @@ import { MoreFilters } from "./MoreFilters";
 import { valueContext } from "../Container";
 
 export function Browser() {
-  const { setName } = useContext(valueContext);
-
-  const blurAfterSelect = (e) => {
-    e.target.blur();
-  };
+  const { setName, type, setType, setLocation } = useContext(valueContext);
 
   const filterByName = (e) => {
     setName(e.target.value);
+  };
+  const filterByType = (e) => {
+    // DOKONCZYĆ TO!!
+    //
+    // ZEBY PO WYBRANIU TYPE, KTÓRY WYSZARZA, WSZYSTKIE CHECKBOXY BYŁ ODZNACZONE
+    //
+    if (type !== "Sale weselne" || type !== "Hotele") {
+      setType("");
+      document
+        .getElementById("type-select")
+        .querySelectorAll("option")
+        .forEach((option) => option.value);
+    }
+    e.target.blur();
+    setType(e.nativeEvent.target.value);
+  };
+
+  const filterByLocation = (e) => {
+    e.target.blur();
+    setLocation(e.nativeEvent.target.value);
   };
 
   return (
@@ -26,20 +42,22 @@ export function Browser() {
         <select
           type="option"
           className="w-3/12 input-style p-2 m-4"
-          onChange={blurAfterSelect}
+          id="type-select"
+          onChange={filterByType}
         >
+          <option value="">-----</option>
           <option value="Sale weselne">Sale weselne</option>
           <option value="Hotele">Hotele</option>
           <option value="Spa">Spa</option>
-          <option value="Planner">Wedding planner</option>
-          <option value="Dekoracje">Dekoracje ślubne</option>
+          <option value="Wedding planner">Wedding planner</option>
+          <option value="Dekoracje ślubne">Dekoracje ślubne</option>
         </select>
         <select
           type="option"
           className="w-3/12 input-style p-2 m-4"
-          onChange={blurAfterSelect}
+          onChange={filterByLocation}
         >
-          <option value="Polska">Cała Polska</option>
+          <option value="">Cała Polska</option>
           <option value="Warszawa">Warszawa</option>
           <option value="Toruń">Toruń</option>
           <option value="Bydgoszcz">Bydgoszcz</option>

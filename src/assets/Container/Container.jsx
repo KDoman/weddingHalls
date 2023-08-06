@@ -7,9 +7,13 @@ export const valueContext = createContext();
 
 export function Container() {
   const [name, setName] = useState("");
+  const [type, setType] = useState("");
+  const [location, setLocation] = useState("");
 
   return (
-    <valueContext.Provider value={{ name, setName }}>
+    <valueContext.Provider
+      value={{ name, setName, type, setType, location, setLocation }}
+    >
       <div className="main-contianer">
         <Browser />
         <WeddingHalls />
