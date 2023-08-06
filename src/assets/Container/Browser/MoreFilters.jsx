@@ -45,7 +45,7 @@ export function MoreFilters() {
       <fieldset>
         <legend>LICZBA MIEJSC NOCLEGOWYCH:</legend>
 
-        <OneFilter id="<20" name="<20" for="<20" text="< 20"></OneFilter>
+        <OneFilter id="20-30" name="20-30" for="20-30" text="< 20"></OneFilter>
         <OneFilter
           id="20-30"
           name="20-30"

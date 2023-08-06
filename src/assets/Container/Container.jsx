@@ -3,17 +3,17 @@ import { Browser } from "./Browser/Browser";
 import "./Container.scss";
 import { WeddingHalls } from "./WeddingHalls/WeddingHalls";
 
-export const numberContext = createContext();
+export const valueContext = createContext();
 
 export function Container() {
-  const [imgNumber, setImgNumber] = useState(1);
+  const [name, setName] = useState("");
 
   return (
-    <numberContext.Provider value={{ imgNumber, setImgNumber }}>
+    <valueContext.Provider value={{ name, setName }}>
       <div className="main-contianer">
         <Browser />
         <WeddingHalls />
       </div>
-    </numberContext.Provider>
+    </valueContext.Provider>
   );
 }

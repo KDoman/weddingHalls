@@ -1,0 +1,173 @@
+[
+  {
+    "src": "./Halls/wedding-hall1.jpg",
+    "name": "Rezydencja na Wzgórzu",
+    "location": "Toruń",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? ",
+    "price": "149",
+    "buttonText": "spytaj o dostępność",
+    "smallIcon": "./Icons/wedding-hall-icon.png"
+  },
+  {
+    "src": "./WeddingDecorations/wd3.jpg",
+    "name": "Magiczne Dekoracje",
+    "location": "Katowice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol",
+    "price": "2300",
+    "buttonText": "Poproś o wycenę",
+    "smallIcon": "./Icons/decorations.png"
+  },
+  {
+    "src": "./Hotels/hotel4.jpg",
+    "name": "Laguna Hotel",
+    "location": "Warszawa",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molest sicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestsicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molest",
+    "price": "350",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/hotel.png"
+  },
+  {
+    "src": "./Hotels/hotel3.jpg",
+    "name": "Fala Hotel",
+    "location": "Katowice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molest sicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestsicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molest",
+    "price": "350",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/hotel.png"
+  },
+  {
+    "src": "./WeddingPlanners/wp3.jpg",
+    "name": "Plan My Wedding",
+    "location": "Katowice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol it praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol ab officiis beatae, molestiae eius iste, nulla possimus cum consequunt",
+    "price": "~4500",
+    "buttonText": "Poproś o wycenę",
+    "smallIcon": "./Icons/planner.png"
+  },
+  {
+    "src": "./Hotels/hotel2.jpg",
+    "name": "Hotel Ambrozja",
+    "location": "Katowice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit",
+    "price": "300",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/hotel.png"
+  },
+  {
+    "src": "./Halls/wedding-hall3.jpg",
+    "name": "Sala weselna Lawendowy Pałacyk",
+    "location": "Bydgoszcz",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol tur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol",
+    "price": "100",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/wedding-hall-icon.png"
+  },
+  {
+    "src": "./WeddingPlanners/wp2.jpg",
+    "name": "Butterfly Wedding",
+    "location": "Poznań",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol it praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum do",
+    "price": "~4000",
+    "buttonText": "Poproś o wycenę",
+    "smallIcon": "./Icons/planner.png"
+  },
+  {
+    "src": "./Hotels/hotel5.jpg",
+    "name": "Atrium Hotel",
+    "location": "Toruń",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit",
+    "price": "200",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/hotel.png"
+  },
+  {
+    "src": "./Spas/spa1.jpg",
+    "name": "Dream Spa",
+    "location": "Toruń",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit",
+    "price": "200",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/spa.png"
+  },
+  {
+    "src": "./Halls/wedding-hall4.jpg",
+    "name": "War Sala",
+    "location": "Warszawa",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molest tur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol",
+    "price": "100",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/wedding-hall-icon.png"
+  },
+  {
+    "src": "./Spas/spa2.jpg",
+    "name": "Nova Spa",
+    "location": "Warszawa",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit",
+    "price": "350",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/spa.png"
+  },
+  {
+    "src": "./WeddingPlanners/wp1.jpg",
+    "name": "Dreamy Wedding",
+    "location": "Warszawa",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol",
+    "price": "~3000",
+    "buttonText": "Poproś o wycenę",
+    "smallIcon": "./Icons/planner.png"
+  },
+  {
+    "src": "./Spas/spa4.jpg",
+    "name": "Spa for You",
+    "location": "Katowice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molest",
+    "price": "400",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/spa.png"
+  },
+  {
+    "src": "./Halls/wedding-hall2.jpg",
+    "name": "Sala Marzeń",
+    "location": "Katowice",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit",
+    "price": "300",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/wedding-hall-icon.png"
+  },
+  {
+    "src": "./WeddingDecorations/wd2.jpg",
+    "name": "Magia dekoracji",
+    "location": "Bydgoszcz",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? ea? consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? ",
+    "price": "900",
+    "buttonText": "Poproś o wycenę",
+    "smallIcon": "./Icons/decorations.png"
+  },
+  {
+    "src": "./Spas/spa3.jpg",
+    "name": "Strefa relaksu",
+    "location": "Bydgoszcz",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol",
+    "price": "250",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/spa.png"
+  },
+  {
+    "src": "./WeddingDecorations/wd1.jpg",
+    "name": "Dekoracje Marzeń",
+    "location": "Warszawa",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? consectetur adipisicing elit. Nostrum nulla iste, id ad veniam quia quam eligendi modi voluptatum sunt quaerat ea? ",
+    "price": "1500",
+    "buttonText": "Poproś o wycenę",
+    "smallIcon": "./Icons/decorations.png"
+  },
+  {
+    "src": "./Hotels/hotel1.jpg",
+    "name": "Hotel Porto",
+    "location": "Bydgoszcz",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit vitae itaque odit praesentium nisi inventore ab officiis beatae, molestiae eius iste, nulla possimus cum consequuntur Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe alias tenetur laborum illum impedit",
+    "price": "500",
+    "buttonText": "Spytaj o dostępność",
+    "smallIcon": "./Icons/hotel.png"
+  }
+]

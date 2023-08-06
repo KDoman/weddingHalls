@@ -6,7 +6,7 @@ export function OneWeddingHall(props) {
       <img src={props.src} alt={props.alt} className="hall-img"></img>
       <div className="info-div">
         <p className="title">{props.name}</p>
-        <p className="localization">{props.localization}</p>
+        <p className="location">{props.location}</p>
         <p className="description">{props.description}</p>
         <p className="price">
           {props.price} zł
