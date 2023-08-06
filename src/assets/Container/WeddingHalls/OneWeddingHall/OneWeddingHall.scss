@@ -11,37 +11,12 @@
     transform: scale(1.01);
     cursor: pointer;
   }
-  .img-arrow-div {
-    position: relative;
-    .hall-img {
-      max-width: 100%;
-      margin: 1em;
-      border-radius: 10px;
-    }
-    .prev::before {
-      content: " ";
-      border-left: 6px solid #fffcfc;
-      border-bottom: 6px solid #fffcfc;
-      width: 30px;
-      height: 30px;
-      transform: rotate(45deg);
-      cursor: pointer;
-      position: absolute;
-      display: none;
-    }
 
-    .next::before {
-      position: absolute;
-      content: " ";
-      border-left: 6px solid #fffcfc;
-      border-bottom: 6px solid #fffcfc;
-      width: 30px;
-      height: 30px;
-      transform: rotate(225deg);
-      cursor: pointer;
-      display: none;
-      position: absolute;
-    }
+  .hall-img {
+    width: 500px;
+    height: 300px;
+    margin: 1em;
+    border-radius: 10px;
   }
   .info-div {
     position: relative;
@@ -50,6 +25,7 @@
     .title {
       font-size: 2rem;
       font-weight: 600;
+      padding-right: 1.5em;
     }
 
     .description {
@@ -74,6 +50,7 @@
     }
     .type-icon {
       position: absolute;
+      width: 40px;
       top: 5%;
       right: 2%;
     }
@@ -95,25 +72,13 @@
 @media (max-width: 1024px) {
   .one-wedding-hall {
     display: block;
-    .img-arrow-div {
-      .hall-img {
-        margin: 0;
-        border-radius: 0;
-        min-width: 100% !important;
-        height: auto;
-      }
-      .prev::before {
-        top: calc(50% - 15px);
-        left: 5%;
-        display: block;
-      }
-
-      .next::before {
-        bottom: calc(50% - 15px);
-        left: calc(90% - 10px);
-        display: block;
-      }
+    .hall-img {
+      margin: 0;
+      border-radius: 0;
+      min-width: 100% !important;
+      height: auto;
     }
+
     .info-div {
       max-width: 80%;
       margin: 0 auto;
@@ -152,15 +117,5 @@
   }
   .contact-button {
     padding: 0.5em 1em !important;
-  }
-  .prev::before {
-    width: 20px !important;
-    height: 20px !important;
-  }
-
-  .next::before {
-    top: calc(50% - 15px);
-    width: 20px !important;
-    height: 20px !important;
   }
 }

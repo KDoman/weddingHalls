@@ -1,16 +1,9 @@
-import { useState } from "react";
 import "./Browser.scss";
 import { MoreFilters } from "./MoreFilters";
 
 export function Browser() {
-  const [searchName, setSearchName] = useState("");
-
   const blurAfterSelect = (e) => {
     e.target.blur();
-  };
-
-  const filterByName = (e) => {
-    setSearchName(e.target.value);
   };
 
   return (
@@ -20,7 +13,6 @@ export function Browser() {
           type="text"
           placeholder="Czego szukasz? "
           className=" w-3/12 input-style p-2 m-4"
-          onChange={filterByName}
         ></input>
         <select
           type="option"
