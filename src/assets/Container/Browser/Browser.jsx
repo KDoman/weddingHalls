@@ -1,28 +1,18 @@
 import { useContext } from "react";
 import "./Browser.scss";
-import { MoreFilters } from "./MoreFilters";
+import { MoreFilters, uncheckBoxes } from "./MoreFilters";
 import { valueContext } from "../Container";
 
 export function Browser() {
-  const { setName, type, setType, setLocation } = useContext(valueContext);
+  const { setName, setType, type, setLocation } = useContext(valueContext);
 
   const filterByName = (e) => {
     setName(e.target.value);
   };
   const filterByType = (e) => {
-    // DOKONCZYĆ TO!!
-    //
-    // ZEBY PO WYBRANIU TYPE, KTÓRY WYSZARZA, WSZYSTKIE CHECKBOXY BYŁ ODZNACZONE
-    //
-    if (type !== "Sale weselne" || type !== "Hotele") {
-      setType("");
-      document
-        .getElementById("type-select")
-        .querySelectorAll("option")
-        .forEach((option) => option.value);
-    }
     e.target.blur();
     setType(e.nativeEvent.target.value);
+    uncheckBoxes(type);
   };
 
   const filterByLocation = (e) => {
@@ -42,7 +32,6 @@ export function Browser() {
         <select
           type="option"
           className="w-3/12 input-style p-2 m-4"
-          id="type-select"
           onChange={filterByType}
         >
           <option value="">-----</option>

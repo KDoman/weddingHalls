@@ -7,6 +7,8 @@ export function WeddingHalls() {
   // wyświetlają się ogłoszenia na podstawie filtrów
   const { name, type, location, price } = useContext(valueContext);
 
+  const inputArray = document.querySelectorAll("#people-counter");
+
   return (
     <>
       {!name && !type && !location
@@ -21,6 +23,7 @@ export function WeddingHalls() {
                 price={record.price}
                 buttonText={record.buttonText}
                 smallIcon={record.smallIcon}
+                numberOfPeople={record.numberOfPeople}
               />
             );
           })
@@ -42,6 +45,7 @@ export function WeddingHalls() {
                 price={record.price}
                 buttonText={record.buttonText}
                 smallIcon={record.smallIcon}
+                numberOfPeople={record.numberOfPeople}
               />
             );
           })}

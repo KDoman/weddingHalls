@@ -7,7 +7,8 @@
     "price": "149",
     "buttonText": "spytaj o dostępność",
     "smallIcon": "./Icons/wedding-hall-icon.png",
-    "type": "Sale weselne"
+    "type": "Sale weselne",
+    "numberOfPeople": 200
   },
   {
     "src": "./WeddingDecorations/wd3.jpg",
@@ -27,7 +28,8 @@
     "price": "350",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/hotel.png",
-    "type": "Hotele"
+    "type": "Hotele",
+    "numberOfPeople": 150
   },
   {
     "src": "./Hotels/hotel3.jpg",
@@ -37,7 +39,8 @@
     "price": "350",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/hotel.png",
-    "type": "Hotele"
+    "type": "Hotele",
+    "numberOfPeople": 20
   },
   {
     "src": "./WeddingPlanners/wp3.jpg",
@@ -57,7 +60,8 @@
     "price": "300",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/hotel.png",
-    "type": "Hotele"
+    "type": "Hotele",
+    "numberOfPeople": 60
   },
   {
     "src": "./Halls/wedding-hall3.jpg",
@@ -67,7 +71,8 @@
     "price": "100",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/wedding-hall-icon.png",
-    "type": "Sale weselne"
+    "type": "Sale weselne",
+    "numberOfPeople": 49
   },
   {
     "src": "./WeddingPlanners/wp2.jpg",
@@ -87,7 +92,8 @@
     "price": "200",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/hotel.png",
-    "type": "Hotele"
+    "type": "Hotele",
+    "numberOfPeople": 99
   },
   {
     "src": "./Spas/spa1.jpg",
@@ -107,7 +113,8 @@
     "price": "100",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/wedding-hall-icon.png",
-    "type": "Sale weselne"
+    "type": "Sale weselne",
+    "numberOfPeople": 110
   },
   {
     "src": "./Spas/spa2.jpg",
@@ -147,7 +154,8 @@
     "price": "300",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/wedding-hall-icon.png",
-    "type": "Sale weselne"
+    "type": "Sale weselne",
+    "numberOfPeople": 150
   },
   {
     "src": "./WeddingDecorations/wd2.jpg",
@@ -187,6 +195,7 @@
     "price": "500",
     "buttonText": "Spytaj o dostępność",
     "smallIcon": "./Icons/hotel.png",
-    "type": "Hotele"
+    "type": "Hotele",
+    "numberOfPeople": 40
   }
 ]

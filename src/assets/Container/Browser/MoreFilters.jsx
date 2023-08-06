@@ -3,6 +3,13 @@ import "./MoreFilters.scss";
 import { OneFilter } from "./OneFilter";
 import { valueContext } from "../Container";
 
+export function uncheckBoxes(type) {
+  if (type !== "Sale weselne" && type !== "Hotele") {
+    document
+      .querySelectorAll("#people-counter")
+      .forEach((checkbox) => (checkbox.checked = false));
+  }
+}
 export function MoreFilters() {
   const { type } = useContext(valueContext);
 
@@ -18,14 +25,24 @@ export function MoreFilters() {
         <legend>
           <b>ILOŚĆ OSÓB</b>
         </legend>
-        <OneFilter id="<50" name="<50" for="<50" text="< 50"></OneFilter>
         <OneFilter
-          id="50-100"
+          id="people-counter"
+          name="<50"
+          for="<50"
+          text="< 50"
+        ></OneFilter>
+        <OneFilter
+          id="people-counter"
           name="50-100"
           for="50-100"
           text="50 - 100"
         ></OneFilter>
-        <OneFilter id=">100" name=">100" for=">100" text="> 100"></OneFilter>
+        <OneFilter
+          id="people-counter"
+          name=">100"
+          for=">100"
+          text="> 100"
+        ></OneFilter>
       </fieldset>
       <fieldset>
         <legend>

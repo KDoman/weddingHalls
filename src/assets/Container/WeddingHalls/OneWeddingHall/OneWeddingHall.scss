@@ -26,13 +26,14 @@
     .title {
       font-size: 2rem;
       font-weight: 600;
-      padding-right: 1.5em;
+      padding-right: 3.5em;
     }
 
     .description {
       padding: 1rem 2rem 1rem 0;
     }
-    .location {
+    .location,
+    .number-of-people {
       background-color: var(--dark-purple);
       width: fit-content;
       padding: 0 1em;
@@ -67,6 +68,15 @@
         color: white;
       }
     }
+    .number-of-people {
+      p {
+        text-align: center;
+      }
+      img {
+        width: 20px;
+        filter: invert(100%);
+      }
+    }
   }
 }
 
@@ -99,9 +109,9 @@
       }
     }
     .contact-button {
-      margin: 1em 0 0 0 !important;
-      padding: 1em 3em;
-      min-width: 100%;
+      margin: 2em auto !important;
+      padding: 1em 2em;
+      width: 70%;
     }
   }
 }
@@ -117,6 +127,6 @@
     font-size: 0.8rem;
   }
   .contact-button {
-    padding: 0.5em 1em !important;
+    padding: 0.5em !important;
   }
 }
