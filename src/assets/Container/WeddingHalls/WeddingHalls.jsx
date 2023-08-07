@@ -4,10 +4,7 @@ import { useContext } from "react";
 import { valueContext } from "../Container";
 
 export function WeddingHalls() {
-  // wyświetlają się ogłoszenia na podstawie filtrów
-  const { name, type, location, price } = useContext(valueContext);
-
-  const inputArray = document.querySelectorAll("#people-counter");
+  const { name, type, location, prices } = useContext(valueContext);
 
   return (
     <>
@@ -33,7 +30,8 @@ export function WeddingHalls() {
                 record.name.toLowerCase().includes(name.toLowerCase())) &&
               (!type || record.type === type) &&
               (!location || record.location === location) &&
-              (!price || record.price >= price)
+              // tutaj zrobić filtr do ceny
+              prices.forEach((price) => record.price < price)
           ).map((record, id) => {
             return (
               <OneWeddingHall

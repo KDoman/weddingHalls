@@ -9,10 +9,20 @@ export function Container() {
   const [name, setName] = useState("");
   const [type, setType] = useState("");
   const [location, setLocation] = useState("");
+  const [prices, setPrices] = useState([]);
 
   return (
     <valueContext.Provider
-      value={{ name, setName, type, setType, location, setLocation }}
+      value={{
+        name,
+        setName,
+        type,
+        setType,
+        location,
+        setLocation,
+        prices,
+        setPrices,
+      }}
     >
       <div className="main-contianer">
         <Browser />

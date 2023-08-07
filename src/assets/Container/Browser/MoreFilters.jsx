@@ -5,9 +5,9 @@ import { valueContext } from "../Container";
 
 export function uncheckBoxes(type) {
   if (type !== "Sale weselne" && type !== "Hotele") {
-    document.querySelectorAll("#people-counter").forEach((checkbox) => {
-      checkbox.checked = false;
-    });
+    document
+      .querySelectorAll("#people-counter")
+      .forEach((checkbox) => (checkbox.checked = false));
   }
 }
 export function MoreFilters() {
@@ -48,14 +48,27 @@ export function MoreFilters() {
         <legend>
           <b>CENA</b>
         </legend>
-        <OneFilter id="<150" name="<150" for="<150" text="< 150zł"></OneFilter>
+        <OneFilter
+          id="<150"
+          name="<150"
+          for="<150"
+          text="< 150zł"
+          value={150}
+        ></OneFilter>
         <OneFilter
           id="150-350"
           name="150-350"
           for="150-350"
           text="150 zł - 350 zł"
+          value={151}
         ></OneFilter>
-        <OneFilter id=">350" name=">350" for=">350" text="> 350zł"></OneFilter>
+        <OneFilter
+          id=">350"
+          value={350}
+          name=">350"
+          for=">350"
+          text="> 350zł"
+        ></OneFilter>
       </fieldset>
     </div>
   );
