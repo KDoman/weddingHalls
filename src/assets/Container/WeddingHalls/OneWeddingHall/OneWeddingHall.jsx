@@ -1,6 +1,15 @@
+import { useState } from "react";
 import "./OneWeddingHall.scss";
+import { AvailabilityDiv } from "./ButtonsDiv/AvailabilityDiv";
+import { PricingDiv } from "./ButtonsDiv/PricingDiv";
 
 export function OneWeddingHall(props) {
+  const [showComponent, setShowComponent] = useState(false);
+
+  const showButtonDiv = () => {
+    setShowComponent(!showComponent);
+  };
+
   return (
     <div className="one-wedding-hall">
       <img src={props.src} alt={props.alt} className="hall-img"></img>
@@ -38,7 +47,18 @@ export function OneWeddingHall(props) {
           )}
         </p>
         <img src={props.smallIcon} className="type-icon"></img>
-        <button className="contact-button">{props.buttonText}</button>
+        <button className="contact-button" onClick={showButtonDiv}>
+          {props.buttonText}
+        </button>
+        {showComponent ? (
+          props.buttonText === "Spytaj o dostępność" ? (
+            <AvailabilityDiv />
+          ) : (
+            <PricingDiv />
+          )
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

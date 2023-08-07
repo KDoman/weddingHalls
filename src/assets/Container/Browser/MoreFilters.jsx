@@ -5,9 +5,9 @@ import { valueContext } from "../Container";
 
 export function uncheckBoxes(type) {
   if (type !== "Sale weselne" && type !== "Hotele") {
-    document
-      .querySelectorAll("#people-counter")
-      .forEach((checkbox) => (checkbox.checked = false));
+    document.querySelectorAll("#people-counter").forEach((checkbox) => {
+      checkbox.checked = false;
+    });
   }
 }
 export function MoreFilters() {
